@@ -1,0 +1,10 @@
+curl -i -H "x-api-key: aAbB-cCdD-eEfF-gGhH" -H "Content-Type: application/json" \
+  --request GET\
+  --data '{"building":"Near Shankar Temple","street":null,"landmark":"Neat vysa school","locality":null,"vtc":"New Delhi","district":"new delhi","state":"Maharashtra"}' \
+  http://localhost:5000/post
+
+
+curl -i -H "x-api-key: aAbB-cCdD-eEfF-gGhH" -H "Content-Type: application/json" \
+  --request GET\
+  --data '{"building":"Near Shankar Temple","street":null,"landmark":"Neat vysa school","locality":null,"vtc":"ಧನ್ಯವಾದಗಳು","district":"ಧನ್ಯವಾದಗಳು","state":"Maharashtra"}' \
+  http://localhost:5000/post
