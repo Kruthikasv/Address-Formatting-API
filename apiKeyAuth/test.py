@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Resource, Api
-from appBasicAuth import *
+from appApiKey import *
 
 app = Flask(__name__)
 api = Api(app, prefix="/api")
